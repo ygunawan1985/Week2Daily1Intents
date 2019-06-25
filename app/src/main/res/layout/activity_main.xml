@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnPictureActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/picture_activity"
+        android:onClick="onClick" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_height_line"
+        android:layout_marginTop="@dimen/margin_top"
+        android:background="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/btnPersonActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/person_activity"
+        android:onClick="onClick" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_height_line"
+        android:layout_marginTop="@dimen/margin_top"
+        android:background="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/btnPersonResultActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/person_result_activity"
+        android:onClick="onClick" />
+
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/layout_height_line"-->
+        <!--android:layout_marginTop="@dimen/margin_top"-->
+        <!--android:background="@color/colorPrimaryDark" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btnMediaPlayerActivity"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/media_player"-->
+        <!--android:onClick="onClick"/>-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_height_line"
+        android:layout_marginTop="@dimen/margin_top"
+        android:background="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/btnWebViewActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/web_view"
+        android:onClick="onClick"/>
+
+</LinearLayout>

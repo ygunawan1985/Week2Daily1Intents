@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WeekTwoDayOneIntents</string>
+    <string name="picture_activity">Picture Activity</string>
+    <string name="person_activity">Person Activity</string>
+    <string name="person_result_activity">Person Result Activity</string>
+    <string name="media_player">Media Player</string>
+    <string name="web_view">Go to www.google.com</string>
+    <string name="add_person">Add Person</string>
+    <string name="display_all_persons">Display All Persons</string>
+    <string name="display_list_of_persons">Display List of Persons</string>
+    <string name="camera">Camera</string>
+</resources>
