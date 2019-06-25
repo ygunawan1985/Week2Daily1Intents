@@ -26,4 +26,4 @@ Instructions:
 Run the Android project
 -Create a new Virtual Device if not already. Then, choose Pixel 2 XL, then click OK.
 
-
+![](screenshots/AddPerson1.png)
