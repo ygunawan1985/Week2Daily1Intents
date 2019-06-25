@@ -24,6 +24,18 @@ DUE DATE June 25, 2019 at 8:59am ET
 Instructions:
 
 Run the Android project
--Create a new Virtual Device if not already. Then, choose Pixel 2 XL, then click OK.
+- Create a new Virtual Device if not already. Then, choose Pixel 2 XL, then click OK.
+- Click on each of the buttons for the corresponding activities.
+- Click on the Picture Activity to take a photo shot using the camera.
+- Click on WebViewActivity to direct you to google website from the app.
+- Click on Person Activity to enter a Person data to the app and display.
 
+![](screenshots/PersonForm.png)
+![](screenshots/camerascreenshot.jpg)
+![](screenshots/webviewscreenshot.jpg)
 ![](screenshots/AddPerson1.png)
+![](screenshots/DisplayPerson1.png)
+![](screenshots/AddPerson2.png)
+![](screenshots/DisplayPerson2.png)
+![](screenshots/AddPerson3.png)
+![](screenshots/DisplayPerson3.png)
