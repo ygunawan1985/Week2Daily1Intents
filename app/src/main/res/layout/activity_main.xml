@@ -40,18 +40,18 @@
         android:text="@string/person_result_activity"
         android:onClick="onClick" />
 
-    <!--<View-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="@dimen/layout_height_line"-->
-        <!--android:layout_marginTop="@dimen/margin_top"-->
-        <!--android:background="@color/colorPrimaryDark" />-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_height_line"
+        android:layout_marginTop="@dimen/margin_top"
+        android:background="@color/colorPrimaryDark" />
 
-    <!--<Button-->
-        <!--android:id="@+id/btnMediaPlayerActivity"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:text="@string/media_player"-->
-        <!--android:onClick="onClick"/>-->
+    <Button
+        android:id="@+id/btnMediaPlayerActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/media_player"
+        android:onClick="onClick"/>
 
     <View
         android:layout_width="match_parent"

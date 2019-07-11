@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.graphics.Picture;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -22,7 +23,15 @@ public class MainActivity extends AppCompatActivity {
         btnPersonResultActivity = findViewById(R.id.btnPersonResultActivity);
         //btnMediaPlayerActivity = findViewById(R.id.btnMediaPlayerActivity);
         btnWebViewActivity = findViewById(R.id.btnWebViewActivity);
+        playSong();
+    }
 
+    public void playSong() {
+        // Play song
+        MediaPlayer mp = new MediaPlayer();
+        mp.reset();// stops any current playing song
+        mp = MediaPlayer.create(this, R.raw.alanwalkeronmyway);
+        mp.start(); // starting mediaplayer
     }
 
     public void onClick(View view) {
@@ -43,10 +52,10 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(personResultActivityIntent);
                 break;
 
-//            case R.id.btnMediaPlayerActivity:
-//                Intent mediaPlayerActivityIntent = new Intent(this, MediaPlayerActivity.class);
-//                startActivity(mediaPlayerActivityIntent);
-//                break;
+            case R.id.btnMediaPlayerActivity:
+                Intent mediaPlayerActivityIntent = new Intent(this, MediaPlayerActivity.class);
+                startActivity(mediaPlayerActivityIntent);
+                break;
 
             case R.id.btnWebViewActivity:
                 Intent webViewActivityIntent = new Intent(this, WebViewActivity.class);
